@@ -1,0 +1,21 @@
+_:
+
+[
+    "autoconf"
+    "cmake"
+    "dlib"
+    "libpng"
+    "minio"
+    "miniserve"
+    "pipenv"
+    "pipx"
+    "pdm"
+    "pnpm"
+    "sqlx-cli"
+    "terminal-notifier"
+    "textidote"
+    "ffmpegthumbnailer"
+    "node"
+    "restic"
+    "poetry"
+]
