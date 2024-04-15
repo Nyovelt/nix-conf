@@ -48,6 +48,7 @@ _:
   #"squirrel" #Rime
   "zerotier-one"
   "applite"
+  "hex-fiend"
   
 
   # Entertainment Tools
@@ -71,10 +72,18 @@ _:
   "vorta"
   "warp"
   "zotero"
-  "alacritty"
   "standard-notes"
+  "balenaetcher"
 
 
   # Browsers
   "brave-browser"
+  "firefox"
+  # Develop
+  "microsoft-openjdk"
+
+  "microsoft-teams"
+
+  # font
+  "font-fira-code"
 ]

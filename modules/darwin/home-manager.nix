@@ -1,4 +1,4 @@
-{ config, pkgs, lib, home-manager, ... }:
+{ config, pkgs, lib, home-manager,  ... }:
 
 let
   user = "canarypwn";
@@ -26,6 +26,7 @@ in
   homebrew = {
     enable = true;
 
+
     casks = pkgs.callPackage ./casks.nix {};
 
     brews = pkgs.callPackage ./brews.nix {};
@@ -37,6 +38,24 @@ in
       };
 
     #taps = [];
+    # taps = {
+    #           "homebrew/homebrew-core" = homebrew-core;
+    #           "homebrew/homebrew-cask" = homebrew-cask;
+    #           "homebrew/cask-fonts" = cask-fonts;
+    #         };
+
+    taps = [
+      "homebrew/cask"
+      "homebrew/cask-fonts"
+      "homebrew/cask-drivers"
+      "homebrew/services"
+      "mongodb/brew"
+      "photonquantum/tap"
+      "homebrew/cask-versions"
+      "messense/macos-cross-toolchains"
+      "minio/stable"
+      "borgbackup/tap"
+    ];
 
 
 
@@ -89,9 +108,9 @@ in
     { path = "/Applications/Warp.app/"; }
     { path = "/System/Applications/Music.app/"; }
     {path = "/Applications/telegram.app/"; }
-     {path = "/Applications/discord.app/"; }
+    {path = "/Applications/discord.app/"; }
     {path = "/Applications/Obsidian.app/";}
-     {path = "/Applications/zotero.app/";}
+    {path = "/Applications/zotero.app/";}
     {
       path = "/Applications/";
       section = "others";
