@@ -44,19 +44,7 @@ in
     #           "homebrew/cask-fonts" = cask-fonts;
     #         };
 
-    taps = [
-      "homebrew/cask"
-      "homebrew/cask-fonts"
-      "homebrew/cask-drivers"
-      "homebrew/services"
-      "mongodb/brew"
-      "photonquantum/tap"
-      "homebrew/cask-versions"
-      "messense/macos-cross-toolchains"
-      "minio/stable"
-      "borgbackup/tap"
-    ];
-
+    
 
 
 

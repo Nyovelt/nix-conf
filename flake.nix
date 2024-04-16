@@ -23,6 +23,7 @@
       url = "github:homebrew/homebrew-cask";
       flake = false;
     };
+
     disko = {
       url = "github:nix-community/disko";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -92,7 +93,7 @@
                   "homebrew/homebrew-cask" = homebrew-cask;
                   "homebrew/homebrew-bundle" = homebrew-bundle;
                 };
-                mutableTaps = false;
+                mutableTaps = true;
                 autoMigrate = true;
               };
             }
