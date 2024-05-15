@@ -9,7 +9,7 @@ _:
 
   # Development Tools
   "homebrew/cask/docker"
-  "visual-studio-code"
+  # "visual-studio-code" # Please install manually
 
   # Documents
   "adobe-acrobat-reader"
