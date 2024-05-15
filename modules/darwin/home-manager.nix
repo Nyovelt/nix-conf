@@ -62,6 +62,7 @@ in
       "Microsoft PowerPoint" = 462062816;
       "OneDrive" = 823766827;
       "Microsoft Remote Desktop" = 1295203466;
+      "Copilot: Track & Budget Money" = 1447330651;
     };
   };
 
