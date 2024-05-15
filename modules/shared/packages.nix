@@ -63,4 +63,6 @@ with pkgs; [
   iperf
   tcping-go
   nmap
+
+  ruby
 ]
