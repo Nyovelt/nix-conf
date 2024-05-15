@@ -28,7 +28,7 @@ _:
   # Utility Tools
   "syncthing"
   "apparency"
-  "backuploupe"
+  # "backuploupe" # Need purchase
   "cheatsheet"
   "deepl"
   "github"
@@ -47,8 +47,8 @@ _:
   "scroll-reverser"
   #"squirrel" #Rime
   "zerotier-one"
-  "applite"
-  "hex-fiend"
+  # "applite" # Use setapp instead
+   "hex-fiend"
   
 
   # Entertainment Tools
@@ -62,9 +62,9 @@ _:
 
   # Productivity Tools
   "raycast"
-  "mactex"
+  # "mactex"
   "mathpix-snipping-tool"
-  "redisinsight"
+  # "redisinsight" 
   "slidepilot"
   "syntax-highlight"
   "voov-meeting"
