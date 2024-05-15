@@ -5,7 +5,7 @@ _:
   "keepassxc"
 
   # Network
-  "cloudflare-warp"
+  "cloudflare-warp" # Please install manually
 
   # Development Tools
   "homebrew/cask/docker"
