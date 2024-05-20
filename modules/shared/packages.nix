@@ -69,4 +69,5 @@ with pkgs; [
   cabextract
   wimlib
   chntpw
+  cdrkit
 ]
