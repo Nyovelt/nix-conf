@@ -66,4 +66,5 @@ with pkgs; [
 
   ruby
   aria
+  cabextract
 ]
