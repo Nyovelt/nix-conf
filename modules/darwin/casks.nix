@@ -86,4 +86,7 @@ _:
 
   # font
   "font-fira-code"
+
+  #music
+  "neteasemusic"
 ]
