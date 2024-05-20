@@ -65,4 +65,5 @@ with pkgs; [
   nmap
 
   ruby
+  aria
 ]
