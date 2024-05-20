@@ -67,4 +67,5 @@ with pkgs; [
   ruby
   aria
   cabextract
+  wimlib
 ]
