@@ -68,4 +68,5 @@ with pkgs; [
   aria
   cabextract
   wimlib
+  chntpw
 ]
