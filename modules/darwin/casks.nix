@@ -89,4 +89,5 @@ _:
 
   #music
   "neteasemusic"
+  "obs"
 ]
